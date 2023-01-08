@@ -1,8 +1,10 @@
 import React from 'react';
 
-function ImageShow() {
+function ImageShow({ image, alt }) {
   return (
-    <div>ImageShow</div>
+    <div>
+      <img src={image} alt={alt} />
+    </div>
   );
 };
 
