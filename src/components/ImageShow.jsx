@@ -1,6 +1,4 @@
-import React from 'react';
-
-function ImageShow({ image, alt }) {
+const ImageShow = ({ image, alt }) => {
   return (
     <div>
       <img src={image} alt={alt} />
