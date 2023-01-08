@@ -1,9 +1,13 @@
-import React from 'react'
+import ImageShow from "./ImageShow";
 
-function ImageList() {
+function ImageList({ allImages }) {
+    
+
   return (
-    <div>ImageList</div>
+    <div>
+      ImageList
+    </div>
   )
-}
+};
 
-export default ImageList
+export default ImageList;
